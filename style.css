@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -10,16 +10,52 @@ body {
 
 /* Headings */
 h1,
-h2,
+h2 {
+  text-align: center;
+}
+
 h3 {
+  display: flex;
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+
+}
+
+h3.center {
+  margin-left: 300px;
+}
+
+h3.rainbow {
+  display: inline-block;
+  margin-left: 0px
+}
+
+h3.background {
+  margin-left: 200px;
+}
+
+h3.abstract {
+    display: inline-block;
+    margin-left: -25px;
+    width: 150px;
+}
+
+h3.spiral {
+  display: inline-block;
+}
+
+p.item-text {
+  text-align: center;
+  width: 200px;
 }
 
 /* Header */
 header {
+  display: flex;
   text-align: center;
+  margin-left: 400px;
 }
+
 
 /* Containers */
 div {
@@ -42,6 +78,18 @@ p {
   line-height: 1.5;
 }
 
+p.padding {
+  font-align: center;
+}
+
+p.about {
+  margin-left: 300px;
+}
+
+ul.center {
+  margin-left: 300px;
+}
+
 /* Links */
 a:link {
   color: #d62828;
@@ -53,18 +101,43 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+} 
+
+nav {
+  margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* Images */
 img {
+  margin-right: 300px;
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   height: auto;
+  float: center; margin: 0px 15px 15px 0px
+}
+
+.container.space-evenly {
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+}
+.container.space-around {
+  justify-content: space-around;
+}
+.container.space-between {  
+  justify-content: space-between;
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  float: left; margin: 0px 15px 15px 0px; 
 }
 
 /* Footer */
