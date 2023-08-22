@@ -12,17 +12,20 @@ body {
 h1,
 h2 {
   text-align: center;
+  background-color: #eae2b7;
 }
 
 h3 {
   display: flex;
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+  background-color: #eae2b7;
 
 }
 
 h3.center {
   margin-left: 300px;
+  background-color: #eae2b7;
 }
 
 h3.rainbow {
@@ -53,7 +56,9 @@ p.item-text {
 header {
   display: flex;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 375px;
+  margin-right: 375px;
+  background-color: #eae2b7;
 }
 
 
@@ -143,9 +148,14 @@ img {
 /* Footer */
 footer {
   text-align: center;
+  background-color: #eae2b7;
+ padding: 50px 0;
+  margin-left: 375px;
+  margin-right: 375px;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
+  background-color: #eae2b7;
 }
