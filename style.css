@@ -6,6 +6,8 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 /* Headings */
@@ -26,25 +28,28 @@ h3 {
 h3.center {
   margin-left: 300px;
   background-color: #eae2b7;
+  
 }
 
 h3.rainbow {
   display: inline-block;
-  margin-left: 0px
+  font-size: 14;
 }
 
 h3.background {
-  margin-left: 200px;
+   margin-left: 225px;
 }
 
 h3.abstract {
     display: inline-block;
+  font-size: 14;
     margin-left: -25px;
     width: 150px;
 }
 
 h3.spiral {
   display: inline-block;
+  font-size: 14;
 }
 
 p.item-text {
@@ -59,6 +64,7 @@ header {
   margin-left: 375px;
   margin-right: 375px;
   background-color: #eae2b7;
+  padding: 30px ;
 }
 
 
@@ -116,16 +122,19 @@ nav {
 
 /* Images */
 img {
-  margin-right: 300px;
+  margin-right: 250px;
+  margin-left: 250px;
   width: 100%;
   max-width: 180px;
-  height: auto;
+  height: 200px;
   float: center; margin: 0px 15px 15px 0px
+
 }
 
 .container.space-evenly {
   justify-content: space-around;
   text-align: center;
+   
 }
 
 
